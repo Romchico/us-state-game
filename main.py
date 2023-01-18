@@ -10,7 +10,7 @@ image = "blank_states_img.gif"
 screen.addshape(image)
 turtle.shape(image)
 true_ans = 0
-while true_ans < 50:
+while true_ans < 51:
     answer_state = screen.textinput(title=f"{true_ans}/50 States Correct", prompt="What's the another state's name?")
     if answer_state == None: # In case you choose cancel
         break
